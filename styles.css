@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+body{
+    font-family: 'Roboto Slab', serif;
+}
+
+nav{
+    background-color:rgb(76, 2, 2);
+    position: fixed;
+    width: 100%;
+}
+nav>ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    justify-content: end;
+    margin-right: 50px;
+    font-weight: 700;
+    padding: 20px;
+    color: white;
+}
+.welcome-section{
+    background: rgb(0,0,0);
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(224,222,222,1) 99%);
+    /* height: 100vh; */
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: white;
+    font-size: 3rem;
+    letter-spacing: 4px;
+}
+.subtext-level{
+    font-style: italic;
+    color:rgb(197, 7, 7); 
+    font-weight: 700;
+    font-size: 2em;
+}
+.projects{
+    height: 100vh;
+    background-color: hsl(240, 75%, 14%);
+}
