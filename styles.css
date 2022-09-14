@@ -123,6 +123,10 @@ footer{
     height: 50px;
 }
 
+footer a{
+    color: white;
+    font-weight: 700;
+}
 footer span{
     display: inline-block;
     margin: 0 20px;
