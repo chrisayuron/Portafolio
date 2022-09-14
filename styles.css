@@ -196,9 +196,15 @@ footer span{
     }
   }
   
-  @media (min-width:800px){
+  @media (max-width:800px){
     nav{
         background-color:rgb(98, 32, 32);
         width: 100%;
     }
+    .welcome-section{
+  
+        text-align: center;
+        /* border: solid 1px white; */
+    }
+
   }
